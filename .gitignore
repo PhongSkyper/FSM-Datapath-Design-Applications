@@ -1,0 +1,47 @@
+# Simulation directories
+xcelium.d/
+*.shm
+*.wdb
+*.fsdb
+
+# Compilation outputs
+work/
+worklib/
+*.o
+*.a
+
+# History and logs
+*.history
+*.log
+xrun.history
+xrun.log
+xrun.key
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Simulation generated files
+*.dsn
+*.trn
+*.vcd
+*.wdb
+*.fsdb
+
+# SimVision
+.simvision/
+.symbolnamelist
+.symbolportinfomap
