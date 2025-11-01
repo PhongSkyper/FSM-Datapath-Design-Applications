@@ -122,9 +122,11 @@ PROJECT3/
 
 ## Author
 Nguyễn Thanh Phong 
-**Course Project**
-FSM-Datapath Design Applications
 
+## Course Project
+Introduction to IC Design (EE3201)
+Computer Organization & Design (EE3203)
+Digital System Design and Verification (EE3215)
 ---
 
 **Last Updated:** November 1, 2025
