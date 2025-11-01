@@ -17,12 +17,6 @@ A fully functional vending machine controller that manages coin input, product s
 - SystemVerilog RTL implementation
 - Complete design flow from specification to implementation
 
-**Features:**
-- Finite state machine for operational sequencing
-- Multi-coin denomination support
-- Product inventory management
-- Change calculation and dispensing logic
-
 ---
 
 ### 2. Product Measurement System
@@ -35,12 +29,6 @@ A measurement system for acquiring and processing sensor data with state-machine
 - Datapath architecture for measurement and signal processing
 - Control flow specification
 - No SystemVerilog implementation (specification phase only)
-
-**Features:**
-- Sensor data acquisition sequencing
-- Signal processing pipeline
-- Measurement validation and filtering
-- Data storage management
 
 ---
 
@@ -55,12 +43,6 @@ An accelerator unit for computing minimum and maximum values from data streams u
 - Multi-stage pipeline architecture
 - No SystemVerilog implementation (specification phase only)
 
-**Features:**
-- Parallel min/max comparison
-- Pipeline-based processing
-- Data stream buffering
-- Result accumulation and output
-
 ---
 
 ### 4. Memory Mapping
@@ -73,12 +55,6 @@ Address translation and memory mapping architecture for embedded systems.
 - Virtual-to-physical address translation circuit
 - TLB (Translation Lookaside Buffer) implementation
 - No FSM or Datapath implementation (hardware mapping circuit only)
-
-**Features:**
-- Address translation logic
-- Memory protection boundaries
-- Cache-friendly access patterns
-- Efficient mapping circuit design
 
 ---
 
@@ -124,18 +100,6 @@ PROJECT3/
 │   ├── Product Measurement System documentation
 │   ├── Min/Max Accelerator documentation
 │   └── Memory Mapping documentation
-├── vending_machine/
-│   ├── fsm/                  # FSM specification
-│   ├── datapath/             # Datapath architecture
-│   └── rtl/                  # SystemVerilog implementation
-├── measurement_system/
-│   ├── hlsm/                 # High-Level State Machine
-│   └── datapath/             # Datapath design (Specification only)
-├── min_max_accelerator/
-│   ├── hlsm/                 # High-Level State Machine
-│   └── datapath/             # Datapath design (Specification only)
-└── memory_mapping/
-    └── mapping_circuit/      # Memory mapping implementation
 ```
 
 ## Implementation Status
@@ -157,7 +121,7 @@ PROJECT3/
 - Hardware synthesis and mapping
 
 ## Author
-
+Nguyễn Thanh Phong 
 **Course Project**
 FSM-Datapath Design Applications
 
